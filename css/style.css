@@ -1,6 +1,11 @@
 /* Shared Style */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Open Sans", serif;
 }
@@ -20,13 +25,11 @@ body {
 }
 
 /* Nav Related Style */
-/* header{
-    margin:50px 200px;
-} */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 nav h1 {
@@ -49,4 +52,48 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Header Related Style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/* Banner Related Style*/
+.banner-content{
+    max-width:585px;
+}
+.banner {
+    padding: 35px 35px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-gretting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner .profile-pic {
+    width: 500px;
 }
